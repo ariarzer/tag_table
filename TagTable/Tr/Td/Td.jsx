@@ -6,7 +6,7 @@ export function Td(props) {
   let inner;
   if (Array.isArray(props.children)) {
     inner = props.children.map((item) => {
-      return <button key={item}>{item}</button>
+      return <button key={item} onClick={() => props.setTags(item)}>{item}</button>
     })
   } else {
     inner = String(props.children);

@@ -7,7 +7,7 @@ export function Tr(props) {
   return <tr className={'Tr'}>
     <th className={'Tr__th'}>{props.colorName}</th>
     {Object.keys(props.fields).map(key => {
-      return <Td key={`${props.colorName}_${key}`}>{props.fields[key]}</Td>
+      return <Td key={`${props.colorName}_${key}`} setTags={props.setTags} >{props.fields[key]}</Td>
     })}
   </tr>;
 };
