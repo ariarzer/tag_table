@@ -20,6 +20,13 @@ export function TagTable(props) {
 
   const setTags = (tag) => {
     if (selectedTags.includes(tag)) {
+      const newSelectedTags = [];
+      selectedTags.forEach((item) => {
+        if (tag !== item) {
+          newSelectedTags.push(item);
+        }
+      });
+      setSelectedTags(newSelectedTags);
       return;
     }
     setSelectedTags([...selectedTags, tag]);
