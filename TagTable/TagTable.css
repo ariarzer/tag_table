@@ -1,0 +1,6 @@
+.TagTable {
+  border-collapse: collapse;
+  max-width: 100%;
+  overflow: scroll;
+  display: block;
+}

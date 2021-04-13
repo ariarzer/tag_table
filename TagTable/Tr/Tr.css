@@ -1,0 +1,8 @@
+.Tr {
+    border: 2px solid CanvasText;
+    padding: 5px;
+}
+
+.Tr__th {
+    text-align: left;
+}
