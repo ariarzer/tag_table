@@ -23,7 +23,7 @@ export function TagTable(props) {
     <tbody>
     {Object.keys(data).map((colorName) => {
       if (isRowContainAllTags(data[colorName], selectedTags)) {
-        return <Tr key={colorName} colorName={colorName} fields={data[colorName]} setTags={setTags}/>
+        return <Tr key={colorName} colorName={colorName} fields={data[colorName]} setTags={setTags} selectedTags={selectedTags}/>
       }
     })}
     </tbody>
