@@ -5,6 +5,7 @@ import normalizeData, { collectDataFields, getAllTags } from '../lib/normalizeDa
 
 import Thead from './Thead';
 import Tr from './Tr';
+import TagControl from "./TagControl";
 
 export function TagTable(props) {
   const data = normalizeData(props.data);
@@ -37,27 +38,31 @@ export function TagTable(props) {
     }, [selectedTags],
   );
 
-  return <table className={'TagTable'}>
-    <Thead
-      fields={collectDataFields(data)}
+  return <>
+    <TagControl
       setTags={setTags}
       selectedTags={selectedTags}
       allTagsList={getAllTags(data)}
     />
-    <tbody>
-    {Object.keys(data).map((colorName) => {
-      if (isRowContainAllTags(data[colorName], selectedTags)) {
-        return <Tr
-          key={colorName}
-          colorName={colorName}
-          fields={data[colorName]}
-          setTags={setTags}
-          selectedTags={selectedTags}
-        />
-      }
-    })}
-    </tbody>
-  </table>;
+    <table className={'TagTable'}>
+      <Thead
+        fields={collectDataFields(data)}
+      />
+      <tbody>
+      {Object.keys(data).map((colorName) => {
+        if (isRowContainAllTags(data[colorName], selectedTags)) {
+          return <Tr
+            key={colorName}
+            colorName={colorName}
+            fields={data[colorName]}
+            setTags={setTags}
+            selectedTags={selectedTags}
+          />
+        }
+      })}
+      </tbody>
+    </table>
+  </>;
 }
 
 function isRowContainAllTags(row, tags) {

@@ -3,12 +3,15 @@ import React from "react";
 import Tag from '../Tag';
 
 export function TagControl(props) {
-  props.allTagsList;
-  return props.allTagsList.map((tag) => {
-    return <Tag
-      key={tag}
-      setTags={props.setTags}
-      selectedTags={props.selectedTags}
-    >{tag}</Tag>
+  const tagsElemList = props.allTagsList.map((tag) => {
+    return <li key={tag}>
+      <Tag
+        setTags={props.setTags}
+        selectedTags={props.selectedTags}
+      >
+        {tag}
+      </Tag>
+    </li>
   });
+  return <ul>{tagsElemList}</ul>
 }
