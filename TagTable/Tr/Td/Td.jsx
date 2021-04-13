@@ -2,7 +2,7 @@ import React from 'react';
 
 import './Td.css';
 
-import Tag from './Tag';
+import Tag from '../../Tag';
 
 export function Td(props) {
   let inner;
