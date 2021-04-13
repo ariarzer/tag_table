@@ -9,11 +9,12 @@ import Tr from './Tr';
 export function TagTable(props) {
   const data = normalizeData(props.data);
 
-  const urlSelectedTags = location.search
-    .slice(1)
-    .split("&")[0]
-    .split("=")[1]
-    .split(',');
+  let urlSelectedTags = location.search.slice(1).split("&")[0];
+  if (urlSelectedTags && urlSelectedTags.includes('setSelectedTags')) {
+    urlSelectedTags = urlSelectedTags.split("=")[1].split(',');
+  } else {
+    urlSelectedTags = undefined;
+  }
 
   const [selectedTags, setSelectedTags] = useState(props.selectedTags || urlSelectedTags || []);
 
