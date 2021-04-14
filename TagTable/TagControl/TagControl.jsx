@@ -2,7 +2,7 @@ import React from "react";
 
 import './TagControl.css';
 
-import Tag from '../Tag';
+import Tag from './Tag';
 
 export function TagControl(props) {
   const tagsElemList = props.allTagsList.map((tag) => {

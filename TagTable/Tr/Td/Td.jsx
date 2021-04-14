@@ -2,16 +2,16 @@ import React from 'react';
 
 import './Td.css';
 
-import Tag from '../../Tag';
+import TagControl from '../../TagControl';
 
 export function Td(props) {
   let inner;
   if (Array.isArray(props.children)) {
-    inner = props.children.map((item) => <Tag
-      key={item}
+    inner = <TagControl
+      allTagsList={props.children}
       setTags={props.setTags}
-      isSelect={props.selectedTags.includes(item)}
-    >{item}</Tag>);
+      selectedTags={props.selectedTags}
+    />;
   } else {
     inner = String(props.children);
   }
