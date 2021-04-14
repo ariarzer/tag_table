@@ -2,3 +2,8 @@
     border: 2px solid CanvasText;
     padding: 5px;
 }
+
+.Td--th {
+    text-align: left;
+    padding: 5px 5px 5px 10px;
+}
