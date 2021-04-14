@@ -10,12 +10,9 @@ import TagControl from "./TagControl";
 export function TagTable(props) {
   const data = normalizeData(props.data);
 
-  let urlSelectedTags = location.search.slice(1).split("&")[0];
-  if (urlSelectedTags && urlSelectedTags.includes('setSelectedTags')) {
-    urlSelectedTags = urlSelectedTags.split("=")[1].split(',');
-  } else {
-    urlSelectedTags = undefined;
-  }
+  const urlSelectedTags = new URLSearchParams(window.location.search)
+    .get('selectedTags')
+    ?.split(',');
 
   const [selectedTags, setSelectedTags] = useState(props.selectedTags || urlSelectedTags || []);
 
