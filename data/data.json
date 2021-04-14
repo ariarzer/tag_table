@@ -230,38 +230,32 @@
     "field_background": {
       "comment": "Фон поля ввода",
       "tags": [],
-      "deprecated_for_web": true,
-      "deprecated_maybe": true
+      "deprecated_for_web": true
     },
     "field_border": {
       "comment": "",
       "tags": [],
-      "deprecated_for_web": true,
-      "deprecated_maybe": true
+      "deprecated_for_web": true
     },
     "field_error_background": {
       "comment": "",
       "tags": [],
-      "deprecated_for_web": true,
-      "deprecated_maybe": true
+      "deprecated_for_web": true
     },
     "field_error_border": {
       "comment": "",
       "tags": [],
-      "deprecated_for_web": true,
-      "deprecated_maybe": true
+      "deprecated_for_web": true
     },
     "field_valid_border": {
       "comment": "",
       "tags": [],
-      "deprecated_for_web": true,
-      "deprecated_maybe": true
+      "deprecated_for_web": true
     },
     "field_text_placeholder": {
       "comment": "",
       "tags": [],
-      "deprecated_for_web": true,
-      "deprecated_maybe": true
+      "deprecated_for_web": true
     },
     "float_button_background": {
       "comment": "Плавающая кнопка с тенью",
