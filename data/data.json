@@ -50,15 +50,15 @@
     },
     "background_content": {
       "comment": "Основной фон контента",
-      "tags": []
+      "tags": ["background"]
     },
     "background_hover": {
       "comment": "Ховер на фоне основного фона",
-      "tags": []
+      "tags": ["background"]
     },
     "background_highlighted": {
       "comment": "Active на фоне основного фона",
-      "tags": []
+      "tags": ["background"]
     },
     "background_keyboard": {
       "comment": "",
@@ -67,11 +67,11 @@
     },
     "background_light": {
       "comment": "Светлая подложка отдельной области",
-      "tags": []
+      "tags": ["background", "highlight"]
     },
     "background_page": {
       "comment": "Фон страницы",
-      "tags": []
+      "tags": ["background"]
     },
     "background_suggestions": {
       "comment": "",
@@ -85,95 +85,95 @@
     },
     "button_commerce_background": {
       "comment": "",
-      "tags": ["button", "control"]
+      "tags": ["button", "control", "commerce"]
     },
     "button_commerce_foreground": {
       "comment": "",
-      "tags": ["button", "control"]
+      "tags": ["button", "control", "commerce"]
     },
     "button_muted_background": {
       "comment": "",
-      "tags": ["button", "control"]
+      "tags": ["button", "control", "muted"]
     },
     "button_muted_foreground": {
       "comment": "",
-      "tags": ["button", "control"]
+      "tags": ["button", "control", "muted"]
     },
     "button_outline_border": {
       "comment": "",
-      "tags": ["button", "control"]
+      "tags": ["button", "control", "outline"]
     },
     "button_outline_foreground": {
       "comment": "",
-      "tags": ["button", "control"]
+      "tags": ["button", "control", "outline"]
     },
     "button_primary_background": {
       "comment": "",
-      "tags": ["button", "control"]
+      "tags": ["button", "control", "primary"]
     },
     "button_primary_foreground": {
       "comment": "",
-      "tags": ["button", "control"]
+      "tags": ["button", "control", "primary"]
     },
     "button_secondary_background": {
       "comment": "",
-      "tags": ["button", "control"]
+      "tags": ["button", "control", "primary"]
     },
     "button_secondary_background_highlighted": {
       "comment": "",
-      "tags": ["button", "control"]
+      "tags": ["button", "control", "secondary"]
     },
     "button_secondary_foreground": {
       "comment": "",
-      "tags": ["button", "control"]
+      "tags": ["button", "control", "secondary"]
     },
     "button_secondary_foreground_highlighted": {
       "comment": "",
-      "tags": ["button", "control"]
+      "tags": ["button", "control", "secondary"]
     },
     "button_secondary_destructive_background": {
       "comment": "",
-      "tags": ["button", "control"]
+      "tags": ["button", "control", "secondary_destructive"]
     },
     "button_secondary_destructive_background_highlighted": {
       "comment": "",
-      "tags": []
+      "tags": ["button", "control", "secondary", "destructive", "error"]
     },
     "button_secondary_destructive_foreground": {
       "comment": "",
-      "tags": []
+      "tags": ["button", "control", "secondary", "destructive", "error"]
     },
     "button_secondary_destructive_foreground_highlighted": {
       "comment": "",
-      "tags": []
+      "tags": ["button", "control", "secondary", "destructive", "error"]
     },
     "button_tertiary_background": {
       "comment": "",
-      "tags": []
+      "tags": ["button", "control", "tertiary"]
     },
     "button_tertiary_foreground": {
       "comment": "",
-      "tags": []
+      "tags": ["button", "control", "tertiary"]
     },
     "cell_button_foreground": {
       "comment": "Текст и иконки кнопки-ячейка",
-      "tags": []
+      "tags": ["button", "control", "cell"]
     },
     "content_placeholder_icon": {
       "comment": "Иконки в плейсхолдере",
-      "tags": []
+      "tags": ["placeholder", "icon"]
     },
     "content_placeholder_text": {
       "comment": "Текст плейхолдера",
-      "tags": []
+      "tags": ["placeholder", "text"]
     },
     "content_tint_background": {
       "comment": "Фон для веделения контента фоном",
-      "tags": []
+      "tags": ["background", "tint"]
     },
     "content_tint_foreground": {
       "comment": "?????",
-      "tags": []
+      "tags": ["foreground", "tint"]
     },
     "control_background": {
       "comment": "",
@@ -197,35 +197,35 @@
     },
     "counter_primary_background": {
       "comment": "",
-      "tags": []
+      "tags": ["counter", "primary", "background"]
     },
     "counter_primary_text": {
       "comment": "",
-      "tags": []
+      "tags": ["counter", "primary", "text"]
     },
     "counter_prominent_background": {
       "comment": "",
-      "tags": []
+      "tags": ["counter", "prominent", "background"]
     },
     "counter_prominent_text": {
       "comment": "",
-      "tags": []
+      "tags": ["counter", "prominent", "text"]
     },
     "counter_secondary_background": {
       "comment": "",
-      "tags": []
+      "tags": ["counter", "secondary", "background"]
     },
     "counter_secondary_text": {
       "comment": "",
-      "tags": []
+      "tags": ["counter", "secondary", "text"]
     },
     "content_warning_background": {
-      "comment": "",
-      "tags": []
+      "comment": "Желтый цвет предпреждения (баннер и т.д.)",
+      "tags": ["warning"]
     },
     "destructive": {
-      "comment": "Цвет ошибки (красный банер и т.д.)",
-      "tags": []
+      "comment": "Цвет ошибки (красная иконка и т.д.)",
+      "tags": ["error"]
     },
     "field_background": {
       "comment": "Фон поля ввода",
@@ -259,19 +259,19 @@
     },
     "float_button_background": {
       "comment": "Плавающая кнопка с тенью",
-      "tags": []
+      "tags": ["button"]
     },
     "float_button_background_highlighted": {
       "comment": "Плавающая кнопка с тенью",
-      "tags": []
+      "tags": ["button", "float"]
     },
     "float_button_foreground": {
       "comment": "Плавающая кнопка с тенью",
-      "tags": []
+      "tags": ["button", "float"]
     },
     "float_button_border": {
       "comment": "Плавающая кнопка с тенью",
-      "tags": []
+      "tags": ["button", "float"]
     },
     "header_alternate_background": {
       "comment": "Альтернативный фон шапки",
@@ -295,7 +295,7 @@
     },
     "header_background": {
       "comment": "Фон шапки",
-      "tags": []
+      "tags": ["header", "background"]
     },
     "header_background_before_blur": {
       "comment": "",
@@ -309,11 +309,11 @@
     },
     "header_search_field_background": {
       "comment": "Поиск в шапке",
-      "tags": []
+      "tags": ["header", "background", "search"]
     },
     "header_search_field_tint": {
       "comment": "Плейсхолдер поиска в шапке",
-      "tags": []
+      "tags": ["header", "search", "tint"]
     },
     "header_tab_active_background": {
       "comment": "",
@@ -337,7 +337,7 @@
     },
     "header_text": {
       "comment": "Текст в шпаке",
-      "tags": []
+      "tags": ["header", "text"]
     },
     "header_text_alternate": {
       "comment": "",
@@ -346,15 +346,15 @@
     },
     "header_text_secondary": {
       "comment": "Вторичный текст в шапке",
-      "tags": []
+      "tags": ["header", "text", "secondary"]
     },
     "header_tint": {
       "comment": "Светлые иконки в шапке",
-      "tags": []
+      "tags": ["header", "tint"]
     },
     "header_tint_alternate": {
       "comment": "Альтенативный цвет иконок в шапке",
-      "tags": []
+      "tags": ["header", "tint", "alternate"]
     },
     "icon_alpha_placeholder": {
       "comment": "",
@@ -363,35 +363,35 @@
     },
     "icon_medium": {
       "comment": "Средние по насыщенности иконки",
-      "tags": []
+      "tags": ["icon", "medium"]
     },
     "icon_medium_alpha": {
       "comment": "Средние по насыщенности иконки с прозрачностью",
-      "tags": []
+      "tags": ["icon", "medium", "alpha"]
     },
     "icon_outline_medium": {
       "comment": "Средние по насыщенности аутлайновые иконки",
-      "tags": []
+      "tags": ["icon", "medium", "outline"]
     },
     "icon_outline_secondary": {
       "comment": "",
-      "tags": []
+      "tags": ["icon", "outline", "secondary"]
     },
     "icon_secondary": {
       "comment": "",
-      "tags": []
+      "tags": ["icon", "secondary"]
     },
     "icon_secondary_alpha": {
       "comment": "",
-      "tags": []
+      "tags": ["icon", "secondary", "alpha"]
     },
     "icon_tertiary": {
       "comment": "",
-      "tags": []
+      "tags": ["icon", "tertiary"]
     },
     "icon_tertiary_alpha": {
       "comment": "",
-      "tags": []
+      "tags": ["icon", "tertiary", "alpha"]
     },
     "im_attach_tint": {
       "comment": "",
@@ -535,15 +535,15 @@
     },
     "image_border": {
       "comment": "Полупрозрачная граница картинок",
-      "tags": []
+      "tags": ["image", "border"]
     },
     "input_background": {
-      "comment": "Фон инпута",
-      "tags": []
+      "comment": "Фон не поискового инпута",
+      "tags": ["input", "background"]
     },
     "input_border": {
       "comment": "Граница инпута",
-      "tags": []
+      "tags": ["input", "border"]
     },
     "landing_background": {
       "comment": "",
@@ -627,11 +627,11 @@
     },
     "like_text_tint": {
       "comment": "Красный текст лайка",
-      "tags": []
+      "tags": ["text", "tint"]
     },
     "link_alternate": {
       "comment": "Альтернативный цвет ссылки",
-      "tags": []
+      "tags": ["link", "text", "alternate"]
     },
     "loader_background": {
       "comment": "?????",
@@ -643,7 +643,7 @@
     },
     "loader_track_fill": {
       "comment": "Фон индикатора загрузки",
-      "tags": []
+      "tags": ["loader"]
     },
     "loader_track_value_fill": {
       "comment": "?????",
@@ -661,11 +661,11 @@
     },
     "modal_card_background": {
       "comment": "Фон модального окна (попап, всплывающее окно)",
-      "tags": []
+      "tags": ["modal_card", "background"]
     },
     "modal_card_border": {
       "comment": "Граница модального окна",
-      "tags": []
+      "tags": ["modal_card", "border"]
     },
     "modal_card_header_close": {
       "comment": "",
@@ -699,27 +699,27 @@
     },
     "placeholder_icon_background": {
       "comment": "Фон плейсхолдера изображения (когда нет аватарки)",
-      "tags": []
+      "tags": ["placeholder", "image", "background"]
     },
     "placeholder_icon_background_opaque": {
       "comment": "Фон плейсхолдера изображения полупрозрачный (когда снизу фон не белый)",
-      "tags": []
+      "tags": ["placeholder", "image", "background", "alpha"]
     },
     "placeholder_icon_foreground_primary": {
       "comment": "Цвет иконки плейсхолдера изображения",
-      "tags": []
+      "tags": ["placeholder", "foreground", "icon", "primary"]
     },
     "placeholder_icon_foreground_secondary": {
       "comment": "Цвет иконки плейсхолдера изображения вторичный",
-      "tags": []
+      "tags": ["placeholder", "foreground", "icon", "secondary"]
     },
     "placeholder_icon_tint": {
       "comment": "Текст в плейсхолдере изображения",
-      "tags": []
+      "tags": ["placeholder", "icon", "tint"]
     },
     "poll_option_background": {
       "comment": "Фон варианта опроса",
-      "tags": []
+      "tags": ["background", "poll"]
     },
     "search_bar_background": {
       "comment": "",
@@ -728,11 +728,11 @@
     },
     "search_bar_field_background": {
       "comment": "Фон поля поиска не в шапке",
-      "tags": []
+      "tags": ["background", "search", "input"]
     },
     "search_bar_field_tint": {
       "comment": "Контеет внутри поля поиска (текст, иконка)",
-      "tags": []
+      "tags": ["text", "search", "input"]
     },
     "search_bar_segmented_control_tint": {
       "comment": "",
@@ -751,31 +751,31 @@
     },
     "selection_off_icon": {
       "comment": "Не выбранные чебоксы и радоинкнопки",
-      "tags": []
+      "tags": ["icon", "control"]
     },
     "separator_alpha": {
       "comment": "Полупрозрачный сепатарор (на не белом фоне)",
-      "tags": []
+      "tags": ["separator"]
     },
     "separator_alternate": {
       "comment": "Сепаратор для разделения контента на светло-сером фоне",
-      "tags": []
+      "tags": ["separator", "alternate"]
     },
     "separator_common": {
       "comment": "Сепаратор для разделения контента на белом фоне",
-      "tags": []
+      "tags": ["separator", "common"]
     },
     "snippet_background": {
       "comment": "Фон снипетов",
-      "tags": []
+      "tags": ["snippet", "background"]
     },
     "snippet_border": {
       "comment": "Граница снипетов",
-      "tags": []
+      "tags": ["snippet", "border"]
     },
     "snippet_icon_tertiary": {
       "comment": "Светлая иконка в снипете",
-      "tags": []
+      "tags": ["snippet", "icon", "tertiary"]
     },
     "splashscreen_icon": {
       "comment": "",
@@ -869,11 +869,11 @@
     },
     "text_action_counter": {
       "comment": "Число репостов и комментариев",
-      "tags": []
+      "tags": ["text", "counter"]
     },
     "text_link": {
       "comment": "Цвет ссылки",
-      "tags": []
+      "tags": ["text", "link"]
     },
     "text_link_highlighted_background": {
       "comment": "",
@@ -882,35 +882,35 @@
     },
     "text_muted": {
       "comment": "Цвет очень жирного текста",
-      "tags": []
+      "tags": ["text", "muted"]
     },
     "text_name": {
       "comment": "Имена и названия сообществ",
-      "tags": []
+      "tags": ["text", "name"]
     },
     "text_placeholder": {
       "comment": "Плейсхолдер в интпутах и при отсутствии результатов поиска",
-      "tags": []
+      "tags": ["text", "placeholder", "input"]
     },
     "text_primary": {
       "comment": "Первичный текст",
-      "tags": []
+      "tags": ["text", "primary"]
     },
     "text_secondary": {
       "comment": "Вторичный текст",
-      "tags": []
+      "tags": ["text", "secondary"]
     },
     "text_subhead": {
       "comment": "Подзаголовок или чуть более важный текст чем вторичный",
-      "tags": []
+      "tags": ["text", "subhead"]
     },
     "text_tertiary": {
       "comment": "Третичный текст, мета-информация",
-      "tags": []
+      "tags": ["text", "tertiary"]
     },
     "icon_name": {
       "comment": "Инока автора поста",
-      "tags": []
+      "tags": ["icon"]
     },
     "panel_tab_active_background": {
       "comment": "",
@@ -929,39 +929,39 @@
     },
     "im_service_message_text": {
       "comment": "Сервисное сообщение",
-      "tags": []
+      "tags": ["text"]
     },
     "writebar_icon": {
       "comment": "Иноки в инпуте мессенджера или комментария",
-      "tags": []
+      "tags": ["icon"]
     },
     "dynamic_blue": {
       "comment": "",
-      "tags": []
+      "tags": ["dynamic"]
     },
     "dynamic_gray": {
       "comment": "",
-      "tags": []
+      "tags": ["dynamic"]
     },
     "dynamic_red": {
       "comment": "",
-      "tags": []
+      "tags": ["dynamic"]
     },
     "dynamic_green": {
       "comment": "",
-      "tags": []
+      "tags": ["dynamic"]
     },
     "dynamic_orange": {
       "comment": "",
-      "tags": []
+      "tags": ["dynamic"]
     },
     "dynamic_purple": {
       "comment": "",
-      "tags": []
+      "tags": ["dynamic"]
     },
     "dynamic_violet": {
       "comment": "",
-      "tags": []
+      "tags": ["dynamic"]
     },
     "vk_connect_button_primary_background": {
       "comment": "",
@@ -1000,11 +1000,11 @@
     },
     "skeleton_foreground_from": {
       "comment": "Начало градиента скелетона",
-      "tags": []
+      "tags": ["skeleton", "foreground"]
     },
     "skeleton_foreground_to": {
       "comment": "Конец градиента скелетона",
-      "tags": []
+      "tags": ["skeleton", "foreground"]
     }
   }
 }
