@@ -32,6 +32,7 @@ export function TagTable(props) {
   useEffect(
     () => {
       if (!selectedTags || !selectedTags.length) {
+        window.history.pushState({}, '', window.location.pathname);
         return;
       }
       window.history.pushState({selectedTags: selectedTags}, '', `?selectedTags=${selectedTags.join(',')}`);
