@@ -5,8 +5,10 @@ import './Tag.css'
 export function Tag(props) {
   let buttonClassName;
   const tag = props.children;
-  if (props.selectedTags.includes(tag)) {
-    buttonClassName = 'Tag__selected'
+  if (props.isSelect) {
+    buttonClassName = 'Tag--selected'
+  } else {
+    buttonClassName = 'Tag'
   }
   return <button
     onClick={() => props.setTags(tag)}

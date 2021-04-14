@@ -7,7 +7,7 @@ export function TagControl(props) {
     return <li key={tag}>
       <Tag
         setTags={props.setTags}
-        selectedTags={props.selectedTags}
+        isSelect={props.selectedTags.includes(tag)}
       >
         {tag}
       </Tag>

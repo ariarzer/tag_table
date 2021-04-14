@@ -10,7 +10,7 @@ export function Td(props) {
     inner = props.children.map((item) => <Tag
       key={item}
       setTags={props.setTags}
-      selectedTags={props.selectedTags}
+      isSelect={props.selectedTags.includes(item)}
     >{item}</Tag>);
   } else {
     inner = String(props.children);
