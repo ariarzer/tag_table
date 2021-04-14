@@ -34,6 +34,9 @@ export function TagTable(props) {
   };
   useEffect(
     () => {
+      if (!selectedTags || !selectedTags.length) {
+        return;
+      }
       window.history.pushState({selectedTags: selectedTags}, '', `?selectedTags=${selectedTags.join(',')}`);
     }, [selectedTags],
   );
