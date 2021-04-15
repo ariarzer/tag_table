@@ -1,6 +1,11 @@
 .Tr {
-    border: 2px solid CanvasText;
+    border: 1px solid var(--separator);
     padding: 5px;
+    height: 54px;
+}
+
+.Tr:hover {
+    background-color: var(--bg_hover);
 }
 
 .Tr__th {

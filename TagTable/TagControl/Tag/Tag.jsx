@@ -6,7 +6,7 @@ export function Tag(props) {
   let buttonClassName;
   const tag = props.children;
   if (props.isSelect) {
-    buttonClassName = 'Tag--selected'
+    buttonClassName = 'Tag Tag--selected'
   } else {
     buttonClassName = 'Tag'
   }

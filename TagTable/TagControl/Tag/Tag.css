@@ -1,3 +1,26 @@
-.Tag--selected {
-    background-color: blue;
+.Tag {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 1em;
+    color: inherit;
+    padding: 5px;
+    border-radius: 3px;
+}
+
+.Tag:focus {
+    outline: none;
+}
+
+.Tag:hover {
+    background-color: var(--bg_hover);
+}
+
+.Tag::before {
+    content: '#';
+}
+
+.Tag--selected,
+.Tag--selected:hover {
+    background-color: var(--bg-highlighted);
 }

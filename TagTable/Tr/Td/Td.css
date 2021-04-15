@@ -1,6 +1,6 @@
 .Td {
-    border: 2px solid CanvasText;
     padding: 5px;
+    color: inherit;
 }
 
 .Td--th {

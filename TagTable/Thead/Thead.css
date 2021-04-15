@@ -1,4 +1,9 @@
 .Thead {
-    border: 2px solid CanvasText;
+    border: 1px solid var(--separator);
     padding: 5px;
+    background-color: var(--bg_light);
+}
+
+.Thead .Tr:hover {
+    background-color: var(--bg_light);
 }
