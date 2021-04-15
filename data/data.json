@@ -2,7 +2,7 @@
   "colors": {
     "accent": {
       "comment": "Яркий элемент, не контрол",
-      "tags": []
+      "tags": ["accent"]
     },
     "action_sheet_action_foreground": {
       "comment": "Текст в ячейке дродауна",
@@ -84,75 +84,77 @@
       "deprecated_for_web": true
     },
     "button_commerce_background": {
-      "comment": "",
+      "comment": "Фон зеленой кнопки",
       "tags": ["button", "control", "commerce"]
     },
     "button_commerce_foreground": {
-      "comment": "",
+      "comment": "Контент внутри зеленой кнопке",
       "tags": ["button", "control", "commerce"]
     },
     "button_muted_background": {
       "comment": "",
-      "tags": ["button", "control", "muted"]
+      "tags": ["button", "control", "muted"],
+      "deprecated_for_web": true
     },
     "button_muted_foreground": {
       "comment": "",
-      "tags": ["button", "control", "muted"]
+      "tags": ["button", "control", "muted"],
+      "deprecated_for_web": true
     },
     "button_outline_border": {
-      "comment": "",
+      "comment": "Грацниы аутлайновой кнопки",
       "tags": ["button", "control", "outline"]
     },
     "button_outline_foreground": {
-      "comment": "",
+      "comment": "Контент внутри аутлайновой кнопки",
       "tags": ["button", "control", "outline"]
     },
     "button_primary_background": {
-      "comment": "",
+      "comment": "Фон первичной кнопки",
       "tags": ["button", "control", "primary"]
     },
     "button_primary_foreground": {
-      "comment": "",
+      "comment": "Контент внутри первичной кнопки",
       "tags": ["button", "control", "primary"]
     },
     "button_secondary_background": {
-      "comment": "",
+      "comment": "Фон вторичной кнопки",
       "tags": ["button", "control", "primary"]
     },
     "button_secondary_background_highlighted": {
-      "comment": "",
+      "comment": "Фон активной вторичной кнопки",
       "tags": ["button", "control", "secondary"]
     },
     "button_secondary_foreground": {
-      "comment": "",
+      "comment": "Контент внутри вторичной кнопки",
       "tags": ["button", "control", "secondary"]
     },
     "button_secondary_foreground_highlighted": {
-      "comment": "",
+      "comment": "Контент внутри активной вторичной кнопки",
       "tags": ["button", "control", "secondary"]
     },
     "button_secondary_destructive_background": {
-      "comment": "",
-      "tags": ["button", "control", "secondary_destructive"]
+      "comment": "Фон вторичной деструктивной кнопки",
+      "tags": ["button", "control", "secondary", "destructive"]
     },
     "button_secondary_destructive_background_highlighted": {
-      "comment": "",
+      "comment": "Фон активной вторичной деструктивной кнопки",
       "tags": ["button", "control", "secondary", "destructive", "error"]
     },
     "button_secondary_destructive_foreground": {
-      "comment": "",
+      "comment": "Контент внутри вторичной деструктивной кнопки",
       "tags": ["button", "control", "secondary", "destructive", "error"]
     },
     "button_secondary_destructive_foreground_highlighted": {
-      "comment": "",
+      "comment": "Контекст внутри активной вторичной деструктивной кнопки",
       "tags": ["button", "control", "secondary", "destructive", "error"]
     },
     "button_tertiary_background": {
-      "comment": "",
+      "comment": "Фон третичной кнопки",
       "tags": ["button", "control", "tertiary"]
     },
     "button_tertiary_foreground": {
-      "comment": "",
+      "comment": "Контент внутри треничной кнопки",
       "tags": ["button", "control", "tertiary"]
     },
     "cell_button_foreground": {
@@ -173,7 +175,8 @@
     },
     "content_tint_foreground": {
       "comment": "?????",
-      "tags": ["foreground", "tint"]
+      "tags": ["foreground", "tint"],
+      "deprecated_for_web": true
     },
     "control_background": {
       "comment": "",
@@ -196,31 +199,31 @@
       "deprecated_for_web": true
     },
     "counter_primary_background": {
-      "comment": "",
+      "comment": "Фон первичного каунтера",
       "tags": ["counter", "primary", "background"]
     },
     "counter_primary_text": {
-      "comment": "",
+      "comment": "Контент внутри первичного каунтера",
       "tags": ["counter", "primary", "text"]
     },
     "counter_prominent_background": {
-      "comment": "",
+      "comment": "Фон красного счетчика",
       "tags": ["counter", "prominent", "background"]
     },
     "counter_prominent_text": {
-      "comment": "",
+      "comment": "Контект внутри красного счетчика",
       "tags": ["counter", "prominent", "text"]
     },
     "counter_secondary_background": {
-      "comment": "",
+      "comment": "Фон вторичного счетчика",
       "tags": ["counter", "secondary", "background"]
     },
     "counter_secondary_text": {
-      "comment": "",
+      "comment": "Контент внутри вторичного счетчика",
       "tags": ["counter", "secondary", "text"]
     },
     "content_warning_background": {
-      "comment": "Желтый цвет предпреждения (баннер и т.д.)",
+      "comment": "Желтый цвет предупреждения (баннер и т.д.)",
       "tags": ["warning"]
     },
     "destructive": {
@@ -258,19 +261,19 @@
       "deprecated_for_web": true
     },
     "float_button_background": {
-      "comment": "Плавающая кнопка с тенью",
-      "tags": ["button"]
+      "comment": "Фон плавающей кнопки с тенью",
+      "tags": ["button", "float"]
     },
     "float_button_background_highlighted": {
-      "comment": "Плавающая кнопка с тенью",
+      "comment": "Фон автивной плавающой кнопки с тенью",
       "tags": ["button", "float"]
     },
     "float_button_foreground": {
-      "comment": "Плавающая кнопка с тенью",
+      "comment": "Контент внутри плавающей кнопки с тенью",
       "tags": ["button", "float"]
     },
     "float_button_border": {
-      "comment": "Плавающая кнопка с тенью",
+      "comment": "Граница плавающей кнопки с тенью",
       "tags": ["button", "float"]
     },
     "header_alternate_background": {
@@ -308,7 +311,7 @@
       "deprecated_for_web": true
     },
     "header_search_field_background": {
-      "comment": "Поиск в шапке",
+      "comment": "Фон поиска в шапке",
       "tags": ["header", "background", "search"]
     },
     "header_search_field_tint": {
@@ -366,7 +369,7 @@
       "tags": ["icon", "medium"]
     },
     "icon_medium_alpha": {
-      "comment": "Средние по насыщенности иконки с прозрачностью",
+      "comment": "Средние по насыщенности иконки с прозрачностью (для не белого фона)",
       "tags": ["icon", "medium", "alpha"]
     },
     "icon_outline_medium": {
@@ -374,23 +377,23 @@
       "tags": ["icon", "medium", "outline"]
     },
     "icon_outline_secondary": {
-      "comment": "",
+      "comment": "Средние по насыщенности вторичные иконки",
       "tags": ["icon", "outline", "secondary"]
     },
     "icon_secondary": {
-      "comment": "",
+      "comment": "Вторичные иконки",
       "tags": ["icon", "secondary"]
     },
     "icon_secondary_alpha": {
-      "comment": "",
+      "comment": "Вторичные иконки с прозрачностью (для не белого фона)",
       "tags": ["icon", "secondary", "alpha"]
     },
     "icon_tertiary": {
-      "comment": "",
+      "comment": "Третичные иконки",
       "tags": ["icon", "tertiary"]
     },
     "icon_tertiary_alpha": {
-      "comment": "",
+      "comment": "Третичные иконки с прозрачностью (для не белого фона)",
       "tags": ["icon", "tertiary", "alpha"]
     },
     "im_attach_tint": {
@@ -933,34 +936,34 @@
     },
     "writebar_icon": {
       "comment": "Иноки в инпуте мессенджера или комментария",
-      "tags": ["icon"]
+      "tags": ["icon", "input"]
     },
     "dynamic_blue": {
-      "comment": "",
+      "comment": "Цвет не меняется в зависимости от темы",
       "tags": ["dynamic"]
     },
     "dynamic_gray": {
-      "comment": "",
+      "comment": "Цвет не меняется в зависимости от темы",
       "tags": ["dynamic"]
     },
     "dynamic_red": {
-      "comment": "",
+      "comment": "Цвет не меняется в зависимости от темы",
       "tags": ["dynamic"]
     },
     "dynamic_green": {
-      "comment": "",
+      "comment": "Цвет не меняется в зависимости от темы",
       "tags": ["dynamic"]
     },
     "dynamic_orange": {
-      "comment": "",
+      "comment": "Цвет не меняется в зависимости от темы",
       "tags": ["dynamic"]
     },
     "dynamic_purple": {
-      "comment": "",
+      "comment": "Цвет не меняется в зависимости от темы",
       "tags": ["dynamic"]
     },
     "dynamic_violet": {
-      "comment": "",
+      "comment": "Цвет не меняется в зависимости от темы",
       "tags": ["dynamic"]
     },
     "vk_connect_button_primary_background": {
