@@ -1,3 +1,7 @@
 .Th {
     padding: 5px;
 }
+
+.Th--min {
+    min-width: initial;
+}

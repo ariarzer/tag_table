@@ -9,6 +9,7 @@ export function Thead(props) {
   return <thead className={'Thead'}>
     <tr className={'Tr'}>
       <Th>color-name</Th>
+      <Th min={true}>examples</Th>
       {props.fields.map(item => <Th key={item}>{item}</Th>)}
     </tr>
   </thead>

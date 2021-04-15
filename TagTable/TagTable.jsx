@@ -2,6 +2,7 @@ import React, {useState, useEffect} from "react";
 import './TagTable.css';
 
 import normalizeData, { collectDataFields, getAllTags, clearDataFor } from './lib/normalizeData';
+import getColorsForExample from './lib/getColorsForExample';
 
 import Thead from './Thead';
 import Tr from './Tr';
@@ -58,6 +59,7 @@ export function TagTable(props) {
             fields={data[colorName]}
             setTags={setTags}
             selectedTags={selectedTags}
+            examples={getColorsForExample(props.palette, props.schemes, colorName)}
           />
         }
       })}
