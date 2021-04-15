@@ -1,7 +1,7 @@
 import React, {useState, useEffect} from "react";
 import './TagTable.css';
 
-import normalizeData, { collectDataFields, getAllTags, clearDataFor } from '../lib/normalizeData';
+import normalizeData, { collectDataFields, getAllTags, clearDataFor } from './lib/normalizeData';
 
 import Thead from './Thead';
 import Tr from './Tr';
