@@ -397,143 +397,143 @@
       "tags": ["icon", "tertiary", "alpha"]
     },
     "im_attach_tint": {
-      "comment": "",
-      "tags": []
+      "comment": "Полосочка в аттаче ????",
+      "tags": ["im"]
     },
     "im_bubble_border_alternate": {
-      "comment": "",
-      "tags": []
+      "comment": "Границы бабла сообщения",
+      "tags": ["im_bubble", "border"]
     },
     "im_bubble_border_alternate_highlighted": {
-      "comment": "",
-      "tags": []
+      "comment": "Граница выделенного бабла сообщения",
+      "tags": ["im_bubble", "border"]
     },
     "im_bubble_button_background": {
-      "comment": "",
-      "tags": []
+      "comment": "Кнопка бота во входящем сообщении",
+      "tags": ["im_bubble", "button", "background"]
     },
     "im_bubble_button_outgoing_background": {
-      "comment": "",
-      "tags": []
+      "comment": "Кнопка бота в исходящем сообщении",
+      "tags": ["im_bubble", "button", "background"]
     },
     "im_bubble_button_background_highlighted": {
-      "comment": "",
-      "tags": []
+      "comment": "Кнопка бота в выделенном сообщении ???",
+      "tags": ["im_bubble", "button", "background"]
     },
     "im_bubble_button_foreground": {
-      "comment": "",
-      "tags": []
+      "comment": "Текст на кнопке бота в сообщении",
+      "tags": ["im_bubble", "button", "text"]
     },
     "im_bubble_incoming_expiring": {
-      "comment": "",
-      "tags": []
+      "comment": "Фон входящего исчезающего сообщение",
+      "tags": ["im_bubble", "background"]
     },
     "im_bubble_incoming_expiring_highlighted": {
-      "comment": "",
-      "tags": []
+      "comment": "Фон выделенного входящего исчезающего сообщение",
+      "tags": ["im_bubble", "background"]
     },
     "im_bubble_outgoing_expiring": {
-      "comment": "",
-      "tags": []
+      "comment": "Фон исходящего исчезающего сообщения",
+      "tags": ["im_bubble", "background", "expiring"]
     },
     "im_bubble_outgoing_expiring_highlighted": {
-      "comment": "",
+      "comment": "Фон выделенного исходящего исчезающего сообщения",
       "tags": []
     },
     "im_bubble_incoming": {
-      "comment": "",
+      "comment": "Фон входящего сообщения",
       "tags": []
     },
     "im_bubble_incoming_alternate": {
-      "comment": "",
+      "comment": "Фон входящего сообщения в чате с кастомным фоном",
       "tags": []
     },
     "im_bubble_incoming_alternate_highlighted": {
-      "comment": "",
+      "comment": "Фон выделенного входящего сообщения в чате с кастомным фоном",
       "tags": []
     },
     "im_bubble_incoming_highlighted": {
-      "comment": "",
+      "comment": "Фон выделенного входящего сообщения",
       "tags": []
     },
     "im_bubble_gift_background": {
-      "comment": "",
+      "comment": "Фон сообщения с подарком",
       "tags": []
     },
     "im_bubble_gift_background_highlighted": {
-      "comment": "",
+      "comment": "Фон выделенного сообщения с подарком",
       "tags": []
     },
     "im_bubble_gift_text": {
-      "comment": "",
+      "comment": "Текст сообщения с подарком",
       "tags": []
     },
     "im_bubble_gift_text_secondary": {
-      "comment": "",
+      "comment": "Цвет таймера сообщения с подарком (и вообще сторичный текст сообщения с подарком)",
       "tags": []
     },
     "im_bubble_outgoing": {
-      "comment": "",
+      "comment": "Фон исходящего сообщения",
       "tags": []
     },
     "im_bubble_outgoing_alternate": {
-      "comment": "",
+      "comment": "Фон исходящего сообщения в чате с кастомным фоном",
       "tags": []
     },
     "im_bubble_outgoing_highlighted": {
-      "comment": "",
+      "comment": "Фон выделенного исходящего сообщения",
       "tags": []
     },
     "im_bubble_outgoing_alternate_highlighted": {
-      "comment": "",
+      "comment": "Фон выделенного исходящего сообщения в чате с кастомным фоном",
       "tags": []
     },
     "im_bubble_wallpaper_button_background": {
-      "comment": "",
+      "comment": "Кнопка бота во входящем сообщении в чате с кастомным фоном",
       "tags": []
     },
     "im_bubble_wallpaper_button_background_highlighted": {
-      "comment": "",
+      "comment": "Кнопка бота в выделенном входящем сообщении в чате с кастомным фоном",
       "tags": []
     },
     "im_bubble_wallpaper_button_foreground": {
-      "comment": "",
+      "comment": "Текст на кнопке бота во входящем сообщении в чате с кастомным фоном",
       "tags": []
     },
     "im_bubble_wallpaper_incoming": {
-      "comment": "",
+      "comment": "Фон входящего сообщения в чате с кастомным фоном",
       "tags": []
     },
     "im_bubble_wallpaper_incoming_highlighted": {
-      "comment": "",
+      "comment": "Фон выделенного входящего сообщения в чате с кастомным фоном",
       "tags": []
     },
     "im_bubble_wallpaper_outgoing": {
-      "comment": "",
+      "comment": "Фон исходящего сообщения в чате с кастомным фоном",
       "tags": []
     },
     "im_bubble_wallpaper_outgoing_highlighted": {
-      "comment": "",
+      "comment": "Фон выделенного исходящего сообщения в чате с кастомным фоном",
       "tags": []
     },
     "im_forward_line_tint": {
-      "comment": "",
+      "comment": "Линия сбоку от пересланного сообщения",
       "tags": []
     },
     "im_reply_separator": {
-      "comment": "",
+      "comment": "Линия сбоку от отвеченного сообщения",
       "tags": []
     },
     "im_text_name": {
-      "comment": "",
-      "tags": []
+      "comment": "Имя автора сообщения",
+      "tags": ["text"]
     },
     "im_toolbar_voice_msg_background": {
-      "comment": "",
-      "tags": []
+      "comment": "Фон под движущейся гистограммой звука во время записи голосового сообщения",
+      "tags": ["background"]
     },
     "im_toolbar_separator": {
-      "comment": "",
+      "comment": "????",
       "tags": []
     },
     "image_border": {
