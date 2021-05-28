@@ -54,11 +54,11 @@
     },
     "background_hover": {
       "comment": "Ховер на фоне основного фона",
-      "tags": ["background"]
+      "tags": ["background", "hover"]
     },
     "background_highlighted": {
       "comment": "Active на фоне основного фона",
-      "tags": ["background"]
+      "tags": ["background", "active"]
     },
     "background_keyboard": {
       "comment": "",
@@ -638,11 +638,11 @@
     },
     "loader_background": {
       "comment": "?????",
-      "tags": []
+      "tags": ["loader"]
     },
     "loader_tint": {
       "comment": "?????",
-      "tags": []
+      "tags": ["loader"]
     },
     "loader_track_fill": {
       "comment": "Фон индикатора загрузки",
@@ -650,7 +650,7 @@
     },
     "loader_track_value_fill": {
       "comment": "?????",
-      "tags": []
+      "tags": ["loader"]
     },
     "media_overlay_button_background": {
       "comment": "",
