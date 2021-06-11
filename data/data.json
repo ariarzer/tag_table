@@ -4,10 +4,6 @@
       "comment": "Яркий элемент, не контрол",
       "tags": ["accent"]
     },
-    "action_sheet_action_foreground": {
-      "comment": "Текст в ячейке дродауна",
-      "tags": ["foreground"]
-    },
     "background_content": {
       "comment": "Основной фон контента",
       "tags": ["background"]
@@ -96,14 +92,6 @@
       "comment": "Текст и иконки кнопки-ячейка",
       "tags": ["button", "control", "cell"]
     },
-    "content_placeholder_icon": {
-      "comment": "Иконки в плейсхолдере",
-      "tags": ["placeholder", "icon"]
-    },
-    "content_placeholder_text": {
-      "comment": "Текст плейхолдера",
-      "tags": ["placeholder", "text"]
-    },
     "content_tint_background": {
       "comment": "Фон для веделения контента фоном",
       "tags": ["background", "tint"]
@@ -138,7 +126,37 @@
     },
     "destructive": {
       "comment": "Цвет ошибки (красная иконка и т.д.)",
-      "tags": ["error"]
+      "tags": ["error", "text", "icon"]
+    },
+    "field_background": {
+      "comment": "Фон поля ввода в форме",
+      "example": "Форма настроек приватности, форма заказа",
+      "tags": ["input", "background"]
+    },
+    "field_border": {
+      "comment": "Фон поля ввода в форме",
+      "example": "Форма настроек приватности, форма заказа",
+      "tags": ["input", "background"]
+    },
+    "field_error_background": {
+      "comment": "Фон поля ввода в форме в состоянии ошибки",
+      "example": "Форма настроек приватности, форма заказа",
+      "tags": ["input", "background"]
+    },
+    "field_error_border": {
+      "comment": "Граница поля ввода в форме в состоянии ошибки",
+      "example": "Форма настроек приватности, форма заказа",
+      "tags": ["input", "border"]
+    },
+    "field_valid_border": {
+      "comment": "?????",
+      "example": "",
+      "tags": ["input", "border"]
+    },
+    "field_text_placeholder": {
+      "comment": "Текст плейсхолдера поля ввода в форме",
+      "example": "Форма настроек приватности, форма заказа",
+      "tags": ["input", "placeholder", "text"]
     },
     "float_button_background": {
       "comment": "Фон плавающей кнопки с тенью",
@@ -352,20 +370,18 @@
       "comment": "Фон под движущейся гистограммой звука во время записи голосового сообщения",
       "tags": ["background"]
     },
-    "im_toolbar_separator": {
-      "comment": "????",
-      "tags": []
-    },
     "image_border": {
       "comment": "Полупрозрачная граница картинок",
       "tags": ["image", "border"]
     },
     "input_background": {
-      "comment": "Фон не поискового инпута",
+      "comment": "Фон поля ввода пользовательского контента",
+      "example": "Фон полей ввода в ленте, комментариях и мессенджере",
       "tags": ["input", "background"]
     },
     "input_border": {
-      "comment": "Граница инпута",
+      "comment": "Граница поля ввода пользовательского контента",
+      "example": "Граница полей ввода в ленте, комментариях и мессенджере",
       "tags": ["input", "border"]
     },
     "like_text_tint": {
@@ -377,19 +393,18 @@
       "tags": ["link", "text", "alternate"]
     },
     "loader_background": {
-      "comment": "?????",
-      "tags": ["loader"]
-    },
-    "loader_tint": {
-      "comment": "?????",
+      "comment": "Непрогруженный контент",
+      "example": "Цвет незагруженного куска аудиозаписи",
       "tags": ["loader"]
     },
     "loader_track_fill": {
-      "comment": "Фон индикатора загрузки",
+      "comment": "Цвет бефферизированного контента",
+      "example": "Цвет загруженного куска аудиозаписи",
       "tags": ["loader"]
     },
     "loader_track_value_fill": {
-      "comment": "?????",
+      "comment": "Цвет програженного контент",
+      "example": "Цвет проигранного куска аудиозаписи",
       "tags": ["loader"]
     },
     "modal_card_background": {
@@ -543,6 +558,14 @@
     "skeleton_foreground_to": {
       "comment": "Конец градиента скелетона",
       "tags": ["skeleton", "foreground"]
+    },
+    "primary_overlay_badge": {
+      "comment": "Первичный полупрозрачный бейджик поверх цветного контента",
+      "tags": ["badge_overlay"]
+    },
+    "secondary_overlay_badge": {
+      "comment": "Вторичный полупрозрачный бейджик поверх цветного контента",
+      "tags": ["badge_overlay"]
     }
   }
 }
