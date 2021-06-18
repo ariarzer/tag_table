@@ -33,7 +33,7 @@
       "tags": ["button", "control", "commerce"]
     },
     "button_outline_border": {
-      "comment": "Грацниы аутлайновой кнопки",
+      "comment": "Границы аутлайновой кнопки",
       "tags": ["button", "control", "outline"]
     },
     "button_outline_foreground": {
@@ -85,7 +85,7 @@
       "tags": ["button", "control", "tertiary"]
     },
     "button_tertiary_foreground": {
-      "comment": "Контент внутри треничной кнопки",
+      "comment": "Контент внутри третичной кнопки",
       "tags": ["button", "control", "tertiary"]
     },
     "cell_button_foreground": {
@@ -93,7 +93,7 @@
       "tags": ["button", "control", "cell"]
     },
     "content_tint_background": {
-      "comment": "Фон для веделения контента фоном",
+      "comment": "Фон для выделения контента фоном",
       "tags": ["background", "tint"]
     },
     "counter_primary_background": {
@@ -109,7 +109,7 @@
       "tags": ["counter", "prominent", "background"]
     },
     "counter_prominent_text": {
-      "comment": "Контект внутри красного счетчика",
+      "comment": "Контент внутри красного счетчика",
       "tags": ["counter", "prominent", "text"]
     },
     "counter_secondary_background": {
@@ -163,7 +163,7 @@
       "tags": ["button", "float"]
     },
     "float_button_background_highlighted": {
-      "comment": "Фон автивной плавающой кнопки с тенью",
+      "comment": "Фон активной плавающей кнопки с тенью",
       "tags": ["button", "float"]
     },
     "float_button_foreground": {
@@ -199,7 +199,7 @@
       "tags": ["header", "tint"]
     },
     "header_tint_alternate": {
-      "comment": "Альтенативный цвет иконок в шапке",
+      "comment": "Альтернативный цвет иконок в шапке",
       "tags": ["header", "tint", "alternate"]
     },
     "icon_medium": {
@@ -307,7 +307,7 @@
       "tags": []
     },
     "im_bubble_gift_text_secondary": {
-      "comment": "Цвет таймера сообщения с подарком (и вообще сторичный текст сообщения с подарком)",
+      "comment": "Цвет таймера сообщения с подарком (и вообще вторичный текст сообщения с подарком)",
       "tags": []
     },
     "im_bubble_outgoing": {
@@ -398,12 +398,12 @@
       "tags": ["loader"]
     },
     "loader_track_fill": {
-      "comment": "Цвет бефферизированного контента",
+      "comment": "Цвет буферизированного контента",
       "example": "Цвет загруженного куска аудиозаписи",
       "tags": ["loader"]
     },
     "loader_track_value_fill": {
-      "comment": "Цвет програженного контент",
+      "comment": "Цвет прогруженного контент",
       "example": "Цвет проигранного куска аудиозаписи",
       "tags": ["loader"]
     },
@@ -444,15 +444,15 @@
       "tags": ["background", "search", "input"]
     },
     "search_bar_field_tint": {
-      "comment": "Контеет внутри поля поиска (текст, иконка)",
+      "comment": "Контент внутри поля поиска (текст, иконка)",
       "tags": ["text", "search", "input"]
     },
     "selection_off_icon": {
-      "comment": "Не выбранные чебоксы и радоинкнопки",
+      "comment": "Не выбранные чекбоксы и радиокнопки",
       "tags": ["icon", "control"]
     },
     "separator_alpha": {
-      "comment": "Полупрозрачный сепатарор (на не белом фоне)",
+      "comment": "Полупрозрачный сепаратор (на не белом фоне)",
       "tags": ["separator"]
     },
     "separator_alternate": {
@@ -464,15 +464,15 @@
       "tags": ["separator", "common"]
     },
     "snippet_background": {
-      "comment": "Фон снипетов",
+      "comment": "Фон сниппетов",
       "tags": ["snippet", "background"]
     },
     "snippet_border": {
-      "comment": "Граница снипетов",
+      "comment": "Граница сниппетов",
       "tags": ["snippet", "border"]
     },
     "snippet_icon_tertiary": {
-      "comment": "Светлая иконка в снипете",
+      "comment": "Светлая иконка в сниппете",
       "tags": ["snippet", "icon", "tertiary"]
     },
     "text_action_counter": {
@@ -492,7 +492,7 @@
       "tags": ["text", "name"]
     },
     "text_placeholder": {
-      "comment": "Плейсхолдер в интпутах и при отсутствии результатов поиска",
+      "comment": "Плейсхолдер в инпутах и при отсутствии результатов поиска",
       "tags": ["text", "placeholder", "input"]
     },
     "text_primary": {
