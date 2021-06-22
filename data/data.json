@@ -421,7 +421,7 @@
     },
     "placeholder_icon_background_opaque": {
       "comment": "Фон плейсхолдера изображения полупрозрачный (когда снизу фон не белый)",
-      "tags": ["placeholder", "image", "background", "alpha"]
+      "tags": ["placeholder", "image", "background"]
     },
     "placeholder_icon_foreground_primary": {
       "comment": "Цвет иконки плейсхолдера изображения",
