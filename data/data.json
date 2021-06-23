@@ -29,7 +29,7 @@
       "tags": ["button", "control", "commerce"]
     },
     "button_commerce_foreground": {
-      "comment": "Контент внутри зеленой кнопке",
+      "comment": "Контент внутри зеленой кнопки",
       "tags": ["button", "control", "commerce"]
     },
     "button_outline_border": {
@@ -420,7 +420,7 @@
       "tags": ["placeholder", "image", "background"]
     },
     "placeholder_icon_background_opaque": {
-      "comment": "Фон плейсхолдера изображения полупрозрачный (когда снизу фон не белый)",
+      "comment": "Фон плейсхолдера изображения непрозрачный (когда снизу фон не белый)",
       "tags": ["placeholder", "image", "background"]
     },
     "placeholder_icon_foreground_primary": {
