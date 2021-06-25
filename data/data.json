@@ -14,7 +14,7 @@
     },
     "background_highlighted": {
       "comment": "Active на фоне основного фона",
-      "tags": ["background", "active"]
+      "tags": ["background", "active", "highlight"]
     },
     "background_light": {
       "comment": "Светлая подложка отдельной области",
@@ -26,11 +26,11 @@
     },
     "button_commerce_background": {
       "comment": "Фон зеленой кнопки",
-      "tags": ["button", "control", "commerce"]
+      "tags": ["button", "control", "commerce", "background"]
     },
     "button_commerce_foreground": {
       "comment": "Контент внутри зеленой кнопки",
-      "tags": ["button", "control", "commerce"]
+      "tags": ["button", "control", "commerce", "foreground"]
     },
     "button_outline_border": {
       "comment": "Границы аутлайновой кнопки",
@@ -38,59 +38,59 @@
     },
     "button_outline_foreground": {
       "comment": "Контент внутри аутлайновой кнопки",
-      "tags": ["button", "control", "outline"]
+      "tags": ["button", "control", "outline", "foreground"]
     },
     "button_primary_background": {
       "comment": "Фон первичной кнопки",
-      "tags": ["button", "control", "primary"]
+      "tags": ["button", "control", "primary", "background"]
     },
     "button_primary_foreground": {
       "comment": "Контент внутри первичной кнопки",
-      "tags": ["button", "control", "primary"]
+      "tags": ["button", "control", "primary", "foreground"]
     },
     "button_secondary_background": {
       "comment": "Фон вторичной кнопки",
-      "tags": ["button", "control", "primary"]
+      "tags": ["button", "control", "primary", "background"]
     },
     "button_secondary_background_highlighted": {
       "comment": "Фон активной вторичной кнопки",
-      "tags": ["button", "control", "secondary"]
+      "tags": ["button", "control", "secondary", "background", "highlight"]
     },
     "button_secondary_foreground": {
       "comment": "Контент внутри вторичной кнопки",
-      "tags": ["button", "control", "secondary"]
+      "tags": ["button", "control", "secondary", "foreground"]
     },
     "button_secondary_foreground_highlighted": {
       "comment": "Контент внутри активной вторичной кнопки",
-      "tags": ["button", "control", "secondary"]
+      "tags": ["button", "control", "secondary", "highlight"]
     },
     "button_secondary_destructive_background": {
       "comment": "Фон вторичной деструктивной кнопки",
-      "tags": ["button", "control", "secondary", "destructive"]
+      "tags": ["button", "control", "secondary", "destructive", "background"]
     },
     "button_secondary_destructive_background_highlighted": {
       "comment": "Фон активной вторичной деструктивной кнопки",
-      "tags": ["button", "control", "secondary", "destructive", "error"]
+      "tags": ["button", "control", "secondary", "destructive", "error", "background", "highlight"]
     },
     "button_secondary_destructive_foreground": {
       "comment": "Контент внутри вторичной деструктивной кнопки",
-      "tags": ["button", "control", "secondary", "destructive", "error"]
+      "tags": ["button", "control", "secondary", "destructive", "error", "foreground"]
     },
     "button_secondary_destructive_foreground_highlighted": {
       "comment": "Контекст внутри активной вторичной деструктивной кнопки",
-      "tags": ["button", "control", "secondary", "destructive", "error"]
+      "tags": ["button", "control", "secondary", "destructive", "error", "foreground", "highlight"]
     },
     "button_tertiary_background": {
       "comment": "Фон третичной кнопки",
-      "tags": ["button", "control", "tertiary"]
+      "tags": ["button", "control", "tertiary", "background"]
     },
     "button_tertiary_foreground": {
       "comment": "Контент внутри третичной кнопки",
-      "tags": ["button", "control", "tertiary"]
+      "tags": ["button", "control", "tertiary", "foreground"]
     },
     "cell_button_foreground": {
       "comment": "Текст и иконки кнопки-ячейка",
-      "tags": ["button", "control", "cell"]
+      "tags": ["button", "control", "cell", "foreground"]
     },
     "content_tint_background": {
       "comment": "Фон для выделения контента фоном",
@@ -122,7 +122,7 @@
     },
     "content_warning_background": {
       "comment": "Желтый цвет предупреждения (баннер и т.д.)",
-      "tags": ["warning"]
+      "tags": ["warning", "background"]
     },
     "destructive": {
       "comment": "Цвет ошибки (красная иконка и т.д.)",
@@ -134,19 +134,19 @@
       "tags": ["input", "background"]
     },
     "field_border": {
-      "comment": "Фон поля ввода в форме",
+      "comment": "Граница поля ввода в форме",
       "example": "Форма настроек приватности, форма заказа",
-      "tags": ["input", "background"]
+      "tags": ["input", "border"]
     },
     "field_error_background": {
       "comment": "Фон поля ввода в форме в состоянии ошибки",
       "example": "Форма настроек приватности, форма заказа",
-      "tags": ["input", "background"]
+      "tags": ["input", "background", "error"]
     },
     "field_error_border": {
       "comment": "Граница поля ввода в форме в состоянии ошибки",
       "example": "Форма настроек приватности, форма заказа",
-      "tags": ["input", "border"]
+      "tags": ["input", "border", "error"]
     },
     "field_valid_border": {
       "comment": "?????",
@@ -160,19 +160,19 @@
     },
     "float_button_background": {
       "comment": "Фон плавающей кнопки с тенью",
-      "tags": ["button", "float"]
+      "tags": ["button", "float", "background"]
     },
     "float_button_background_highlighted": {
       "comment": "Фон активной плавающей кнопки с тенью",
-      "tags": ["button", "float"]
+      "tags": ["button", "float", "background", "highlight"]
     },
     "float_button_foreground": {
       "comment": "Контент внутри плавающей кнопки с тенью",
-      "tags": ["button", "float"]
+      "tags": ["button", "float", "foreground"]
     },
     "float_button_border": {
       "comment": "Граница плавающей кнопки с тенью",
-      "tags": ["button", "float"]
+      "tags": ["button", "float", "border"]
     },
     "header_background": {
       "comment": "Фон шапки",
@@ -184,7 +184,7 @@
     },
     "header_search_field_tint": {
       "comment": "Плейсхолдер поиска в шапке",
-      "tags": ["header", "search", "tint"]
+      "tags": ["header", "placeholder", "search", "tint"]
     },
     "header_text": {
       "comment": "Текст в шпаке",
@@ -240,135 +240,139 @@
     },
     "im_bubble_border_alternate": {
       "comment": "Границы бабла сообщения",
-      "tags": ["im_bubble", "border"]
+      "tags": ["im", "im_bubble", "border"]
     },
     "im_bubble_border_alternate_highlighted": {
       "comment": "Граница выделенного бабла сообщения",
-      "tags": ["im_bubble", "border"]
+      "tags": ["im", "im_bubble", "border", "highlight"]
     },
     "im_bubble_button_background": {
       "comment": "Кнопка бота во входящем сообщении",
-      "tags": ["im_bubble", "button", "background"]
+      "tags": ["im", "im_bubble", "button", "background"]
     },
     "im_bubble_button_outgoing_background": {
       "comment": "Кнопка бота в исходящем сообщении",
-      "tags": ["im_bubble", "button", "background"]
+      "tags": ["im", "im_bubble", "button", "background"]
     },
     "im_bubble_button_background_highlighted": {
       "comment": "Кнопка бота в выделенном сообщении ???",
-      "tags": ["im_bubble", "button", "background"]
+      "tags": ["im", "im_bubble", "button", "background", "highlight"]
     },
     "im_bubble_button_foreground": {
       "comment": "Текст на кнопке бота в сообщении",
-      "tags": ["im_bubble", "button", "text"]
+      "tags": ["im", "im_bubble", "button", "text", "foreground"]
     },
     "im_bubble_incoming_expiring": {
-      "comment": "Фон входящего исчезающего сообщение",
-      "tags": ["im_bubble", "background"]
+      "comment": "Фон входящего исчезающего сообщения",
+      "tags": ["im", "im_bubble", "background"]
     },
     "im_bubble_incoming_expiring_highlighted": {
-      "comment": "Фон выделенного входящего исчезающего сообщение",
-      "tags": ["im_bubble", "background"]
+      "comment": "Фон выделенного входящего исчезающего сообщения",
+      "tags": ["im", "im_bubble", "background", "highlight"]
     },
     "im_bubble_outgoing_expiring": {
       "comment": "Фон исходящего исчезающего сообщения",
-      "tags": ["im_bubble", "background", "expiring"]
+      "tags": ["im", "im_bubble", "background", "expiring"]
     },
     "im_bubble_outgoing_expiring_highlighted": {
       "comment": "Фон выделенного исходящего исчезающего сообщения",
-      "tags": []
+      "tags": ["im", "im_bubble", "background", "highlight"]
     },
     "im_bubble_incoming": {
       "comment": "Фон входящего сообщения",
-      "tags": []
+      "tags": ["im", "im_bubble", "background"]
     },
     "im_bubble_incoming_alternate": {
       "comment": "Фон входящего сообщения в чате с кастомным фоном",
-      "tags": []
+      "tags": ["im", "im_bubble", "background"]
     },
     "im_bubble_incoming_alternate_highlighted": {
       "comment": "Фон выделенного входящего сообщения в чате с кастомным фоном",
-      "tags": []
+      "tags": ["im", "im_bubble", "background", "highlight"]
     },
     "im_bubble_incoming_highlighted": {
       "comment": "Фон выделенного входящего сообщения",
-      "tags": []
+      "tags": ["im", "im_bubble", "background", "highlight"]
     },
     "im_bubble_gift_background": {
       "comment": "Фон сообщения с подарком",
-      "tags": []
+      "tags": ["im", "im_bubble", "background", "highlight"]
     },
     "im_bubble_gift_background_highlighted": {
       "comment": "Фон выделенного сообщения с подарком",
-      "tags": []
+      "tags": ["im", "im_bubble", "background", "highlight"]
     },
     "im_bubble_gift_text": {
       "comment": "Текст сообщения с подарком",
-      "tags": []
+      "tags": ["im", "im_bubble"]
     },
     "im_bubble_gift_text_secondary": {
       "comment": "Цвет таймера сообщения с подарком (и вообще вторичный текст сообщения с подарком)",
-      "tags": []
+      "tags": ["im", "im_bubble"]
     },
     "im_bubble_outgoing": {
       "comment": "Фон исходящего сообщения",
-      "tags": []
+      "tags": ["im", "im_bubble","background"]
     },
     "im_bubble_outgoing_alternate": {
       "comment": "Фон исходящего сообщения в чате с кастомным фоном",
-      "tags": []
+      "tags": ["im", "im_bubble", "background"]
     },
     "im_bubble_outgoing_highlighted": {
       "comment": "Фон выделенного исходящего сообщения",
-      "tags": []
+      "tags": ["im", "im_bubble", "background", "highlight"]
     },
     "im_bubble_outgoing_alternate_highlighted": {
       "comment": "Фон выделенного исходящего сообщения в чате с кастомным фоном",
-      "tags": []
+      "tags": ["im", "im_bubble", "background", "highlight"]
     },
     "im_bubble_wallpaper_button_background": {
       "comment": "Кнопка бота во входящем сообщении в чате с кастомным фоном",
-      "tags": []
+      "tags": ["im", "im_bubble", "background"]
     },
     "im_bubble_wallpaper_button_background_highlighted": {
       "comment": "Кнопка бота в выделенном входящем сообщении в чате с кастомным фоном",
-      "tags": []
+      "tags": ["im", "im_bubble", "background", "highlight"]
     },
     "im_bubble_wallpaper_button_foreground": {
       "comment": "Текст на кнопке бота во входящем сообщении в чате с кастомным фоном",
-      "tags": []
+      "tags": ["im", "im_bubble", "foreground"]
     },
     "im_bubble_wallpaper_incoming": {
       "comment": "Фон входящего сообщения в чате с кастомным фоном",
-      "tags": []
+      "tags": ["im", "im_bubble", "background"]
     },
     "im_bubble_wallpaper_incoming_highlighted": {
       "comment": "Фон выделенного входящего сообщения в чате с кастомным фоном",
-      "tags": []
+      "tags": ["im", "im_bubble", "background", "highlight"]
     },
     "im_bubble_wallpaper_outgoing": {
       "comment": "Фон исходящего сообщения в чате с кастомным фоном",
-      "tags": []
+      "tags": ["im", "im_bubble", "background"]
     },
     "im_bubble_wallpaper_outgoing_highlighted": {
       "comment": "Фон выделенного исходящего сообщения в чате с кастомным фоном",
-      "tags": []
+      "tags": ["im", "im_bubble", "background", "highlight"]
     },
     "im_forward_line_tint": {
       "comment": "Линия сбоку от пересланного сообщения",
-      "tags": []
+      "tags": ["im"]
     },
     "im_reply_separator": {
       "comment": "Линия сбоку от отвеченного сообщения",
-      "tags": []
+      "tags": ["im"]
     },
     "im_text_name": {
       "comment": "Имя автора сообщения",
-      "tags": ["text"]
+      "tags": ["im", "text"]
     },
     "im_toolbar_voice_msg_background": {
       "comment": "Фон под движущейся гистограммой звука во время записи голосового сообщения",
-      "tags": ["background"]
+      "tags": ["im", "background"]
+    },
+    "im_service_message_text": {
+      "comment": "Сервисное сообщение",
+      "tags": ["im", "text"]
     },
     "image_border": {
       "comment": "Полупрозрачная граница картинок",
@@ -493,7 +497,7 @@
     },
     "text_placeholder": {
       "comment": "Плейсхолдер в инпутах и при отсутствии результатов поиска",
-      "tags": ["text", "placeholder", "input"]
+      "tags": ["text", "placeholder", "input", "search"]
     },
     "text_primary": {
       "comment": "Первичный текст",
@@ -514,10 +518,6 @@
     "icon_name": {
       "comment": "Инока автора поста",
       "tags": ["icon"]
-    },
-    "im_service_message_text": {
-      "comment": "Сервисное сообщение",
-      "tags": ["text"]
     },
     "writebar_icon": {
       "comment": "Иноки в инпуте мессенджера или комментария",
