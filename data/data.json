@@ -551,6 +551,10 @@
       "comment": "Цвет не меняется в зависимости от темы",
       "tags": ["dynamic"]
     },
+    "dynamic_raspberry_pink": {
+      "comment": "Цвет не меняется в зависимости от темы",
+      "tags": ["dynamic"]
+    },
     "skeleton_foreground_from": {
       "comment": "Начало градиента скелетона",
       "tags": ["skeleton", "foreground"]
@@ -566,6 +570,14 @@
     "secondary_overlay_badge": {
       "comment": "Вторичный полупрозрачный бейджик поверх цветного контента",
       "tags": ["badge_overlay"]
+    },
+    "content_positive_background": {
+      "comment": "Фон сообщения об успехе",
+      "tags": ["content", "background"]
+    },
+    "content_negative_background": {
+      "comment": "Фон сообщения об ошибке",
+      "tags": ["content", "background"]
     }
   }
 }
