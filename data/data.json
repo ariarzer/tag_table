@@ -578,6 +578,10 @@
     "content_negative_background": {
       "comment": "Фон сообщения об ошибке",
       "tags": ["content", "background"]
+    },
+    "tabbar_background": {
+      "comment": "Цвет для таббара. Используются только для навигации в миниаппах.",
+      "tags": ["tabbar", "background"]
     }
   }
 }
